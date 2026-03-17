@@ -81,25 +81,26 @@ export default defineConfig({
       ],
       '/ai-tutorial/': [
         {
-          text: '1. AI 基础设施与算力底座',
+          text: '导读与路线图',
           collapsed: false,
           items: [
-            { text: '什么是算力与硬件？', link: '/ai-tutorial/hardware-and-compute' },
-            { text: '什么是 AI 基础设施与基座？', link: '/ai-tutorial/infrastructure' }
+            { text: 'AI 专栏导读', link: '/ai-tutorial/intro' }
           ]
         },
         {
-          text: '2. 大语言模型核心理论',
+          text: '基础原理',
           collapsed: false,
           items: [
             { text: '从人工智能到生成式 AI', link: '/ai-tutorial/ai-evolution' },
+            { text: '什么是算力与硬件？', link: '/ai-tutorial/hardware-and-compute' },
+            { text: '什么是 AI 基础设施与基座？', link: '/ai-tutorial/infrastructure' },
             { text: '解密“模型”与“参数”', link: '/ai-tutorial/what-is-model' },
             { text: '什么是 Token 与上下文窗口？', link: '/ai-tutorial/what-is-token' },
             { text: 'Transformer 与文字接龙机制', link: '/ai-tutorial/llm-mechanisms' },
           ]
         },
         {
-          text: '3. 提示词工程与交互策略',
+          text: 'Prompt 与可靠性',
           collapsed: false,
           items: [
             { text: 'Prompt 核心框架 (RCTF)', link: '/ai-tutorial/prompt-basics' },
@@ -108,7 +109,7 @@ export default defineConfig({
           ]
         },
         {
-          text: '4. 研发提效与 AI 辅助编程实践',
+          text: 'AI 编程实践',
           collapsed: false,
           items: [
             { text: '主流 AI 编程工具选型指南', link: '/ai-tutorial/tools-comparison' },
@@ -118,7 +119,7 @@ export default defineConfig({
           ]
         },
         {
-          text: '5. RAG 知识库检索增强架构',
+          text: 'RAG',
           collapsed: false,
           items: [
             { text: '初探 RAG 架构', link: '/ai-tutorial/rag-intro' },
@@ -127,7 +128,7 @@ export default defineConfig({
           ]
         },
         {
-          text: '6. 高阶智能体与原生应用开发',
+          text: 'Agent 与应用',
           collapsed: false,
           items: [
             { text: '拥抱 AI Native：接入 API 指南', link: '/ai-tutorial/llm-apis' },

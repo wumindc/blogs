@@ -3,22 +3,22 @@
 layout: home
 
 hero:
-  name: "我的博客与教程"
-  text: "探索技术，分享知识"
-  tagline: 欢迎来到我的沉浸式技术文档与博客空间。
+  name: "NiHoo"
+  text: "探索技术，分享生活"
+  tagline: 欢迎来到 NiHoo 个人空间，涵盖 Java开发、DevOps架构、AI与读书心得。
   actions:
     - theme: brand
-      text: 开始教程
-      link: /tutorial/
+      text: AI 专题
+      link: /ai-tutorial/intro
     - theme: alt
-      text: 阅读博客
-      link: /blog/
+      text: 技术沉淀
+      link: /coding/java/base
 
 features:
-  - title: 结构化教程
-    details: 精心编排的教程结构，帮助你从零开始系统性地掌握技术框架。
-  - title: 极速加载
-    details: 基于 Vite 的极速构建，带来丝滑的文档阅读体验。
-  - title: 博客聚合
-    details: 随时记录开发心得与生活点滴，一键发布 Markdown 博客。
+  - title: 💻 后端开发与架构
+    details: 记录 Java 核心技术栈、JVM 原理、Spring体系，以及 Linux、Docker 与 K8s 运维实践。
+  - title: 🤖 AI 辅助与编程实践
+    details: 系统讲述生成式 AI 工作原理、Prompt 技巧、主流 AI 编程工具及大模型应用落地。
+  - title: 📚 读书笔记与生活点滴
+    details: 在代码之外，保持阅读习惯，总结技术以外的感悟，记录充实的生活。
 ---

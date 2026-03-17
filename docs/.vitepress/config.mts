@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "我的博客与教程",
+  title: "NiHoo",
   description: "基于 VitePress 构建的现代化博客与教程网站",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

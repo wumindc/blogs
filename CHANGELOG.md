@@ -9,3 +9,10 @@
 - 配置了 VitePress 的导航栏（首页、教程、博客）和独立侧边栏。
 - 创建了站点首页以及部分教程和博客示例 `Markdown` 文件。
 - 添加了架构设计文档 `20260317-001-VitePress站点设计.md`。
+
+## [2026-03-17]
+- **Time/时间**: 2026-03-17 11:58:00
+- **Requirement/变更需求**: 将博客名称更改为 "NiHoo" 并优化首页结构内容。
+- **Details/变更内容**: 
+  - 修改了 `docs/.vitepress/config.mts` 中的项目名称 `title` 为 "NiHoo"。
+  - 重新设计并重写了 `docs/index.md` 主页内容，更新了名称并在 features 中展示了 Java开发、前端架构、AI 辅助编程等核心内容。

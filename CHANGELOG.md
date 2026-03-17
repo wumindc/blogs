@@ -16,3 +16,11 @@
 - **Details/变更内容**: 
   - 修改了 `docs/.vitepress/config.mts` 中的项目名称 `title` 为 "NiHoo"。
   - 重新设计并重写了 `docs/index.md` 主页内容，更新了名称并在 features 中展示了 Java开发、前端架构、AI 辅助编程等核心内容。
+
+## [2026-03-17]
+- **Time/时间**: 2026-03-17 12:05:00
+- **Requirement/变更需求**: 完成《AI 教程》专栏全量内容的客观化、实战化编写。
+- **Details/变更内容**: 
+  - 编写了 **AI 基础与原理解析** 模块（包含 AI 发展史、大模型文本接龙工作原理、RCTF 高阶提示词工程框架）。
+  - 编写了 **AI 辅助编程** 模块（包含 Cursor/Copilot 工具对比、Context 投喂技巧、日常代码重构及单测实战）。
+  - 编写了 **AI 原生应用开发** 模块（包含 LLM API 接入、RAG 向量数据库机制、Agent/ReAct 架构及 Chatbot 全栈落地指南）。

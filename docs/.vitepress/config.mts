@@ -81,29 +81,59 @@ export default defineConfig({
       ],
       '/ai-tutorial/': [
         {
-          text: 'AI 基础与原理解析',
+          text: '1. AI 基础设施与算力底座',
+          collapsed: false,
           items: [
-            { text: '什么是人工智能', link: '/ai-tutorial/intro' },
-            { text: '生成式 AI 的运作核心', link: '/ai-tutorial/gen-ai-core' },
-            { text: 'Prompt 提示词工程指南', link: '/ai-tutorial/prompt-engineering' },
+            { text: '什么是算力与硬件？', link: '/ai-tutorial/hardware-and-compute' },
+            { text: '什么是 AI 基础设施与基座？', link: '/ai-tutorial/infrastructure' }
           ]
         },
         {
-          text: 'AI 辅助编程',
+          text: '2. 大语言模型核心理论',
+          collapsed: false,
           items: [
-            { text: '主流 AI 编程工具对比', link: '/ai-tutorial/tools-comparison' },
-            { text: '基于 AI 的日常开发提效方案', link: '/ai-tutorial/daily-efficiency' },
-            { text: '如何写出让 AI 秒懂的代码注释', link: '/ai-tutorial/context-prompting' },
-            { text: '实战：产品经理如何用 AI 快搭系统', link: '/ai-tutorial/pm-prototype-builder' }
+            { text: '从人工智能到生成式 AI', link: '/ai-tutorial/ai-evolution' },
+            { text: '解密“模型”与“参数”', link: '/ai-tutorial/what-is-model' },
+            { text: '什么是 Token 与上下文窗口？', link: '/ai-tutorial/what-is-token' },
+            { text: 'Transformer 与文字接龙机制', link: '/ai-tutorial/llm-mechanisms' },
           ]
         },
         {
-          text: 'AI 原生应用开发',
+          text: '3. 提示词工程与交互策略',
+          collapsed: false,
           items: [
-            { text: '接入大模型 API', link: '/ai-tutorial/llm-apis' },
-            { text: 'RAG 架构精讲', link: '/ai-tutorial/rag-architecture' },
-            { text: 'Agent 智能体系统设计与实战', link: '/ai-tutorial/agent-systems' },
-            { text: '打造你的第一个智能对话机器人', link: '/ai-tutorial/chatbot-project' },
+            { text: 'Prompt 核心框架 (RCTF)', link: '/ai-tutorial/prompt-basics' },
+            { text: '进阶 Prompt 策略 (CoT/Few-Shot)', link: '/ai-tutorial/advanced-prompting' },
+            { text: 'AI 幻觉的成因解析与缓解', link: '/ai-tutorial/hallucination' }
+          ]
+        },
+        {
+          text: '4. 研发提效与 AI 辅助编程实践',
+          collapsed: false,
+          items: [
+            { text: '主流 AI 编程工具选型指南', link: '/ai-tutorial/tools-comparison' },
+            { text: '日常开发提效方案实战', link: '/ai-tutorial/daily-efficiency' },
+            { text: '写出让 AI 秒懂的代码上下文', link: '/ai-tutorial/context-prompting' },
+            { text: '实战：产品经理快搭系统', link: '/ai-tutorial/pm-prototype-builder' }
+          ]
+        },
+        {
+          text: '5. RAG 知识库检索增强架构',
+          collapsed: false,
+          items: [
+            { text: '初探 RAG 架构', link: '/ai-tutorial/rag-intro' },
+            { text: '向量数据库科普与选型', link: '/ai-tutorial/vector-database' },
+            { text: '深入剖析 RAG (文档切块与重排序)', link: '/ai-tutorial/rag-deep-dive' }
+          ]
+        },
+        {
+          text: '6. 高阶智能体与原生应用开发',
+          collapsed: false,
+          items: [
+            { text: '拥抱 AI Native：接入 API 指南', link: '/ai-tutorial/llm-apis' },
+            { text: '大语言模型智能体 (Agent) 架构初解', link: '/ai-tutorial/agent-intro' },
+            { text: '智能体开发实战 (Function Calling)', link: '/ai-tutorial/agent-development' },
+            { text: '实战：从零构建全栈智能对话机器', link: '/ai-tutorial/chatbot-project' }
           ]
         }
       ],
